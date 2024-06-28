@@ -5,35 +5,26 @@
 }
 #css3{
     background-color: white;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 .top1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content:space-around;
 }
 .my{
     display: flex;
     justify-content: center;
-    margin-right: 50px;
-    margin-top: px;
-}
-.my1{
-    display: flex;
-    justify-content: right;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding-right: 50px;
-    padding: opx 40px;
-    cursor: pointer;
-    font-size: 30px;
-    margin-bottom: 10px;
+    margin-right:426px;
+    font-size: 20px;
+    margin-top: 13px;
 }
 .start{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-    padding-right:20px;
+    padding-left:9px;
     cursor: pointer;
-    margin-top:1px;
+    margin-top:2px;
 }
 .Home{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -54,87 +45,95 @@
 .shop{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 5px;
-    padding-left: 16px;
+    padding-left: 15px;
     cursor: pointer;
     font-size: 15px;
     color: rgb(129, 136, 141);
     letter-spacing: 0.3px;
 }
 #down{
-    padding-top: 6px;
     padding-left: 2px;
+    margin-top: 7px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    /* align-items: center; */
     color: rgb(129, 136, 141);
 
 }
-/* .top2{
+.top2{
     display: flex;
-    /* padding-left: 800px; */
-    /* display: flex; */
-    /* margin-left: 670px;
-    margin-bottom: 10px; */
+    margin-right: 85px;
+    margin-bottom: 13px;
+    margin-top: 8px;
+    width: 135px;
+    align-items: center;
+    height: 35px;
+    width: 115px;
     /* padding-top: 1px; */
-    /* width: 120px;
-    height: 35px; */
-    /* padding-top: 2px; */
-    /* border: 1px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
-} */ */
+}
 .icon{
-    margin-top: 60px;
-    /* padding-bottom: px; */
-    font-size: 40px;
+    /* margin-top:0rem; */
+    padding-bottom: 12px;
+    padding-left: 2px;
+    font-size: 30px;
+}
+.top2:hover{
+    color: white;
+    background-color: black;
 }
 .cart{
-    padding-left: 5px;
+    padding-left: 10px;
     color: gray;
-    padding-top: 20px;
+    padding-top: 6px;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .zero{
-    /* padding-top: 10px;
-    padding-left: 20px;
-    background-color: black;
-    color: white;
-    font-size: 25px; */
-    margin-top: 15px;
-    height: 22px;
-    width: 22px;
+    margin-top: 2px;
+    height: 21px;
+    width: 21px;
     margin-left: 16px;
-    padding: px 5px 10px 2px;
+    padding: 0px 5px 1px 5px;
     background-color: black;
     color: white;
     border: 1px solid black;
-    border-radius: 50px;
-    font-size: 17px;
+    border-radius: 100px;
+    /* text-align: center; */
+    box-sizing:1px;
+    font-size: 15px;
     text-align: center;
 }
 #css4{
-    background-color: black;
+    background-color:#212529;
     padding: 125px;
     min-width: 100vh;
-    height: 300px;
-    padding-top: 140px;
+    height:294px;
+    padding-top: 80px;
     padding-bottom: 10px;
     margin-bottom: 50px;
 }
 .top3{
     display: grid;
-    padding-left: 470px;
+    padding-left: 469px;
+    /* letter-spacing: 0px; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .style{
     color: white;
     font-size: 55px;
+    text-align: left;
     padding-bottom: 10px;
-    /* padding-top: -100px; */
+    padding-top: 10px;
+    padding-right: 250px;
 }
 .with{
-    color: gray;
+    color: rgb(154, 146, 146);
     font-size: 20px;
-    font-weight: 600;
-    padding-left: 7px;
+    font-weight: 400;
+    padding-left: 10px;
 }
 #css5{
     display: grid;
@@ -142,6 +141,7 @@
     gap: 35px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     justify-content: center;
+    margin-top: 120px;
 }
 .top4{
     width: 252px;
@@ -153,18 +153,15 @@
     overflow-y: hidden;
 }
 .fancy{
-    margin-top:20px;
-    /* padding-left: 20px; */
+    margin-top:25px;
 }
 .rs1{
-    padding-top: 30px;
-    /* padding-left: 20px; */
-
+    padding-top: 25px;
 }
 .view{
-    margin-left: 80px;
-    width: 95px;
-    margin-top: 40px;
+    margin-left: 82px;
+    width: 90px;
+    margin-top: 35px;
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 14px;
@@ -183,18 +180,24 @@
 .sale1{
     position: absolute;
     top: 20px;
-    margin-left: 80%;
+    margin-left: 200px;
     background-color: black;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
-    width: 35px;
+    width: 32px;
 }
 .spacial{
-    margin-top: 20px;
+    margin-top: 25px;
+}
+#gold{
+    letter-spacing: -9px;
+    margin-top: 12.5px;
+    margin-right: 5px;
 }
 .star{
     color: rgb(197, 174, 46);
+    /* letter-spacing: -5px; */
 }
 .bx{
     margin-top: 15px;
@@ -207,8 +210,8 @@
 }
 .view1{
     margin-left: 80px;
-    width: 95px;
-    margin-top: 30px;
+    width: 90px;
+    margin-top: 20px;
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 14px;
@@ -225,12 +228,12 @@
     overflow-x: hidden;
 }
 .item{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .view2{
     margin-left: 80px;
     width: 95px;
-    margin-top: 45px;
+    margin-top: 35px;
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 14px;
@@ -247,7 +250,7 @@
     overflow-x: hidden; 
 }
 .popular{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .top8{
     position: relative;
@@ -260,7 +263,7 @@
     overflow-x: hidden; 
 }
 .item2{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .top9{
     position: relative;
@@ -273,7 +276,7 @@
     overflow-x: hidden; 
 }
 .fancy2{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .top10{
     position: relative;
@@ -286,7 +289,7 @@
     overflow-x: hidden;  
 }
 .special2{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .top11{
     position: relative;
@@ -299,14 +302,15 @@
     overflow-x: hidden;  
 }
 .copy{
-    background-color:#212529;;
+    background-color:#212529;
     min-height: 15vh;
-    margin-top: 100px;
+    margin-top: 95px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .copy2{
     color: white;
     margin-left: 648px;
-    padding-top: 42px;
+    padding-top: 40px;
+    margin-top: 10px;
 }
 
