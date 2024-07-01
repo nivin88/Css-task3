@@ -11,6 +11,15 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content:space-around;
+    /* @media only screen and(max-width:320px) {
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    } */
+}
+.menu{
+    display: none;
 }
 .my{
     display: flex;
@@ -109,7 +118,7 @@
 #css4{
     background-color:#212529;
     padding: 125px;
-    min-width: 100vh;
+    min-width: 100vw;
     height:294px;
     padding-top: 80px;
     padding-bottom: 10px;
@@ -121,6 +130,12 @@
     /* letter-spacing: 0px; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+    /* @media only screen and (max-width:320px) {
+        .top3{
+            padding: 20px 0px 0px 0px;
+            height: 100px;
+    }
+} */
 .style{
     color: white;
     font-size: 55px;
@@ -135,6 +150,9 @@
     font-weight: 400;
     padding-left: 10px;
 }
+/* .menu{
+    display: none;
+} */
 #css5{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -152,7 +170,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.fancy{
+.title-one{
     margin-top:25px;
 }
 .rs1{
@@ -187,7 +205,7 @@
     border-radius: 5px;
     width: 32px;
 }
-.spacial{
+.title-one-prt{
     margin-top: 25px;
 }
 #gold{
@@ -208,7 +226,7 @@
 .rs2{
     padding-top: 10px;
 }
-.view1{
+.view{
     margin-left: 80px;
     width: 90px;
     margin-top: 20px;
@@ -227,7 +245,7 @@
     overflow-y: hidden;
     overflow-x: hidden;
 }
-.item{
+.title-one{
     margin-top: 25px;
 }
 .view2{
@@ -249,7 +267,7 @@
     overflow-y: hidden;
     overflow-x: hidden; 
 }
-.popular{
+.title-one-prt{
     margin-top: 25px;
 }
 .top8{
@@ -262,7 +280,7 @@
     overflow-y: hidden;
     overflow-x: hidden; 
 }
-.item2{
+.title-one{
     margin-top: 25px;
 }
 .top9{
@@ -275,7 +293,7 @@
     overflow-y: hidden;
     overflow-x: hidden; 
 }
-.fancy2{
+.title-one{
     margin-top: 25px;
 }
 .top10{
@@ -288,7 +306,7 @@
     overflow-y: hidden;
     overflow-x: hidden;  
 }
-.special2{
+.title-one-prt{
     margin-top: 25px;
 }
 .top11{
@@ -313,4 +331,256 @@
     padding-top: 40px;
     margin-top: 10px;
 }
-
+@media only screen and (max-width:375px){
+    .Home{
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    #down{
+        display: none;
+    }
+    .top2{
+        display: none;
+    }
+    #css3{
+        padding-left:0px;
+    }
+    .my{
+        margin-right: 15px;
+        text-align: left;
+    }
+    .start{
+        padding-left: 0px;
+    }
+    .top1{
+        margin-left:0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;    
+    }
+    .menu{
+        display: flex;        
+        font-size: 30px;
+        justify-content: end;
+        padding-bottom: 10px;
+    }
+    #css4{
+        background-color: #212529;
+        padding-top: 0px;
+        padding-bottom: 1px;
+        margin-bottom: 50px;
+        padding: 0px;
+        height: 100px;
+        
+    }
+    #css5{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        gap: 10px;
+        
+    }
+    img{
+        width: 130px;
+        height: 100px;
+    }
+    .view{
+        margin-left: 18px;
+        width: 80px;
+        margin-top: 15px;
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+    .top4{
+        width: 130px;
+        height: 280px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        text-align: center;
+        overflow-y: hidden;
+        overflow-y: hidden;
+    }
+    .top5{
+        width: 130px;
+        height: 280px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        text-align: center;
+        overflow-y: hidden;
+        overflow-y: hidden;
+    }
+    .title-one-prt{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .img{
+        position: relative;
+    }
+    .sale1{
+        position: absolute;
+        top: 20px;
+        margin-left: 70%;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+    }
+    .top3{
+        padding: 20px 0px 0px 0px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    .style{
+        font-size: 25px;
+        /* padding-bottom: 30px; */
+        padding-right: 0px;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .with{
+        width:250px;
+        margin-left: 30px;
+        font-size: 16px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    .copy{
+        font-size: 12px;
+        margin-top: 100px;
+        padding: 40px;
+    }
+}
+@media only screen and (max-width:425px) and (min-width:321px){
+    .Home{
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    #down{
+        display: none;
+    }
+    .top2{
+        display: none;
+    }
+    .top1 {
+        margin-left:0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;    
+    }
+    .menu{
+        display: flex;        
+        font-size: 30px;
+    }
+    #css5{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        justify-content: center;
+        gap: 10px 0px;
+        margin-left: 6%;
+    }
+    img{
+        width: 150px;
+        height: 100px;
+    }
+    .view{
+        margin-left: 30px;
+        width: 80px;
+        margin-top: 15px;
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+    .top4{
+        width: 150px;
+        height: 280px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        text-align: center;
+        overflow-y: hidden;
+        overflow-y: hidden;
+    }
+    .top5{
+        width: 150px;
+        height: 280px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        text-align: center;
+        overflow-y: hidden;
+        overflow-y: hidden;
+    }
+    .top3{
+        padding: 20px 0px 0px 0px;
+        height: 100px;
+    }
+    .style{
+        font-size: 24px;
+    }
+    .with{
+        font-size: 16px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .copy{
+        font-size: 10px;
+        margin-top: 100px;
+        padding: 40px;
+    }
+    .title-one-prt{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .img{
+        position: relative;
+    }
+    .sale1{
+        position: absolute;
+        top: 20px;
+        margin-left: 70%;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+    }
+}
+ @media only screen and (max-width:768px) and (min-width:426px){
+    
+    .top2{
+        margin-left: 30%;
+    }
+    .css5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img{
+        width: 200px;
+    }
+    .top4{
+        width: 200px;
+    }
+    .top5{
+        width: 200px;
+    }
+    .view,.view1{
+        margin-left: 55px;
+    }
+} 
+@media only screen and (max-width:1024px) and (min-width:769px){
+    .css5{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .top2{
+        margin-left: 40%;
+    }
+}
